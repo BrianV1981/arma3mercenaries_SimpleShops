@@ -131,7 +131,7 @@ if(_storePoint isEqualTo "") then
     _pos = markerPos _storePoint;
 };
 
-_near = (nearestObjects [_pos,_allowedTypes,100]) select {alive _x};// 100 is the distance
+_near = (nearestObjects [_pos,_allowedTypes,100]) select {alive _x}; // 100 is the distance in meters that a vehicle is searched for in order to store/park
 
 if((count _near) > 0) then
 {
