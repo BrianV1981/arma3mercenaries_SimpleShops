@@ -1,7 +1,8 @@
 #include "HG_Macros.h"
 /*
     Author - HoverGuy
-    Website - https://northernimpulse.com
+    GitHub - https://github.com/Ppgtjmad/SimpleShops
+	Steam - https://steamcommunity.com/id/HoverGuy/
 	
 	currencyType - STRING - Currency you want to use (ISO format)
 	cashVariable - STRING - Custom cash variable you want to use instead of default one (setVariable'd on player and broadcasted), data held by the variable must be INTEGER
@@ -77,7 +78,7 @@ bankVariable = "HG_Bank";
 
 /* SYSTEMS */
 resetSavedMoney = false;
-enableHUD = true;
+enableHUD = false;
 hudType = 1;
 enablePaycheck = false;
 enableKillReward = false;
@@ -108,11 +109,11 @@ admins[] = {"_SP_PLAYER_"};
 
 /* KEYS */
 atmKey = ;
-lockUnlockKey = ; // L key;
+lockUnlockKey = 0x26; // L key;
 giveMoneyKey = ;
-giveKeyKey = ;        // K key
-adminKey = 0x26;
-hudKey = 0x25;
+giveKeyKey = 0x25;        // K key
+adminKey = ;
+hudKey = ;
 
 /* SAVING */
 savingMethod = "Profile";
